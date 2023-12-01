@@ -31,10 +31,20 @@
         "illuminate/http": "^10.0",
         "illuminate/pagination": "^10.0",
         "illuminate/support": "^10.0",
-        "neomerx/json-api": "^1.0.3",
+        "premiervirtual/json-api": "^1.0.12",
         "nyholm/psr7": "^1.0",
         "ramsey/uuid": "^3.0|^4.0",
         "symfony/psr-http-message-bridge": "^2.0"
+    },
+    "require-dev": {
+        "ext-sqlite3": "*",
+        "cloudcreativity/json-api-testing": "^4.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "laravel/legacy-factories": "^1.0.4",
+        "laravel/ui": "^4.0",
+        "mockery/mockery": "^1.1",
+        "orchestra/testbench": "^8.0",
+        "phpunit/phpunit": "^9.0"
     },
     "suggest": {
         "cloudcreativity/json-api-testing": "Required to use the test helpers."
