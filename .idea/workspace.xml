@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="544989da-fbfc-444d-b32d-456606a0d0d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Api/ResourceProviders.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/ResourceProviders.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codec/DecodingList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codec/DecodingList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Codec/EncodingList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codec/EncodingList.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Document/ResourceObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document/ResourceObject.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Resolver/AggregateResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver/AggregateResolver.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +221,7 @@
       <workItem from="1701383320620" duration="4363000" />
       <workItem from="1704969918257" duration="17000" />
       <workItem from="1704970171203" duration="132000" />
-      <workItem from="1708944366034" duration="707000" />
+      <workItem from="1708944366034" duration="1602000" />
     </task>
     <servers />
   </component>
