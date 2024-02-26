@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="544989da-fbfc-444d-b32d-456606a0d0d4" name="Changes" comment="Update json-api dependency">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Encoder/Neomerx/Document/Errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Encoder/Neomerx/Document/Errors.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Document/Error/Errors.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document/Error/Errors.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -223,7 +223,7 @@
       <workItem from="1704969918257" duration="17000" />
       <workItem from="1704970171203" duration="132000" />
       <workItem from="1708944366034" duration="1602000" />
-      <workItem from="1708974007459" duration="38000" />
+      <workItem from="1708974007459" duration="1468000" />
     </task>
     <task id="LOCAL-00001" summary="Update json-api dependency">
       <option name="closed" value="true" />

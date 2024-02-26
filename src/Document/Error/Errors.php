@@ -105,7 +105,7 @@ class Errors implements DocumentInterface, IteratorAggregate
     /**
      * @inheritDoc
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return new ArrayIterator($this->errors);
     }
@@ -123,7 +123,7 @@ class Errors implements DocumentInterface, IteratorAggregate
     /**
      * @inheritDoc
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return [
             'errors' => collect($this->errors),
