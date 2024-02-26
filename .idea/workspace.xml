@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="544989da-fbfc-444d-b32d-456606a0d0d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -179,7 +180,7 @@
     "WebServerToolWindowFactoryState": "false",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "WSL",
     "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "WSL",
-    "git-widget-placeholder": "fix/warning-fixes",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/segoddnja/work/json-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
