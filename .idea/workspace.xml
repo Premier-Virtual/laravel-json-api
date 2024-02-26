@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="544989da-fbfc-444d-b32d-456606a0d0d4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Api/ResourceProviders.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Api/ResourceProviders.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codec/DecodingList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codec/DecodingList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Codec/EncodingList.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Codec/EncodingList.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Document/ResourceObject.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Document/ResourceObject.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Resolver/AggregateResolver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Resolver/AggregateResolver.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,12 +25,14 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <phar pharPath="$PROJECT_DIR$/composer.phar" interpreterId="7abe89ff-cb5b-442a-abb1-4acf7d421e75" />
+    </execution>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="e922a9d210703dd5fc4b43103a2e4f3f71b9f785" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,7 +40,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="Ubuntu-20.04">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/nunomaduro/termwind" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/uri-template" />
@@ -159,6 +167,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
       <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
       <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/carbonphp/carbon-doctrine-types" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -174,13 +183,17 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "WSL",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "WSL",
+    "git-widget-placeholder": "fix/warning-fixes",
     "last_opened_file_path": "//wsl$/Ubuntu-20.04/home/segoddnja/work/json-api",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "php.override.implement.member.chooser.php.doc": "NONE",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -195,6 +208,13 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.14475.35" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -205,6 +225,9 @@
       <updated>1701383190857</updated>
       <workItem from="1701383192120" duration="117000" />
       <workItem from="1701383320620" duration="4363000" />
+      <workItem from="1704969918257" duration="17000" />
+      <workItem from="1704970171203" duration="132000" />
+      <workItem from="1708944366034" duration="707000" />
     </task>
     <servers />
   </component>

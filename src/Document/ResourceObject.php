@@ -165,7 +165,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset): bool
     {
         return $this->fieldValues->has($offset);
     }
@@ -173,7 +173,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function offsetGet($offset)
+    public function offsetGet($offset): mixed
     {
         return $this->fieldValues->offsetGet($offset);
     }
@@ -181,7 +181,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function offsetSet($offset, $value)
+    public function offsetSet($offset, $value): void
     {
         throw new \LogicException('Resource object is immutable.');
     }
@@ -189,7 +189,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function offsetUnset($offset)
+    public function offsetUnset($offset): void
     {
         throw new \LogicException('Resource object is immutable.');
     }
@@ -638,7 +638,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->fieldValues->getIterator();
     }
@@ -661,7 +661,7 @@ class ResourceObject implements Arrayable, \IteratorAggregate, \JsonSerializable
     /**
      * @inheritDoc
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): mixed
     {
         return $this->toArray();
     }
