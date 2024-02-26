@@ -146,7 +146,7 @@ class CursorPaginator implements IteratorAggregate, Countable
     /**
      * @inheritDoc
      */
-    public function getIterator()
+    public function getIterator(): \Traversable
     {
         return $this->items;
     }
@@ -154,7 +154,7 @@ class CursorPaginator implements IteratorAggregate, Countable
     /**
      * @inheritDoc
      */
-    public function count()
+    public function count(): int
     {
         return $this->items->count();
     }
