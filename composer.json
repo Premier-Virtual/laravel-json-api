@@ -31,8 +31,8 @@
         "illuminate/http": "^10.0",
         "illuminate/pagination": "^10.0",
         "illuminate/support": "^10.0",
-        "premiervirtual/json-api": "^1.0.12",
         "nyholm/psr7": "^1.0",
+        "premiervirtual/json-api": "^4.0",
         "ramsey/uuid": "^3.0|^4.0",
         "symfony/psr-http-message-bridge": "^2.0"
     },
