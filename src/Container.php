@@ -497,7 +497,7 @@ class Container implements ContainerInterface
      */
     protected function exists($className)
     {
-        return class_exists($className) || $this->container->bound($className);
+        return !!$className && class_exists($className) || $this->container->bound($className);
     }
 
 }
